@@ -1,0 +1,58 @@
+.transaction-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.table-header {
+  text-transform: uppercase;
+  background-color: rgb(61, 112, 253);
+}
+.table-header,
+.table-data {
+  padding: 20px;
+  text-align: left;
+  border: 1px solid #ddd;
+  font-weight: 500;
+}
+
+.table-row:nth-child(even) {
+  background-color: #cccccc;
+}
+
+.table-row:hover {
+  background-color: #f1f1f1;
+}
+
+@media only screen and (min-width: 40em) {
+  .transaction-table {
+    margin-left: 0;
+  }
+
+  .table-header,
+  .table-data {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 48em) {
+  .table-header,
+  .table-data {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  .table-header,
+  .table-data {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 80em) {
+  .table-header,
+  .table-data {
+    font-size: 20px;
+  }
+}

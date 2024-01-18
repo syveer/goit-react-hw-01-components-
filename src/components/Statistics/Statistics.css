@@ -1,0 +1,44 @@
+.statistics-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 80px 10px 0 10px;
+}
+.statistics-title {
+  align-self: center;
+  text-transform: uppercase;
+}
+.statistics-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+  flex: 1;
+}
+.statistics-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  flex: 1;
+  align-items: center;
+  font-size: larger;
+  font-weight: 400;
+}
+.statistics-item:nth-child(1) {
+  background-color: #ffcccb;
+}
+.statistics-item:nth-child(2) {
+  background-color: #bb9090;
+}
+.statistics-item:nth-child(3) {
+  background-color: #babd65;
+}
+.statistics-item:nth-child(4) {
+  background-color: #88d8b3;
+}
+
+.statistics-item:nth-child(5) {
+  background-color: #bd72c7;
+}
